@@ -6,4 +6,12 @@ Module MyEnumerable
     end
     res
   end
+
+  def any? (&block)
+    res = false;
+    each do |value|
+      res = true if block.call(value)      
+    end
+    res
+  end
 end
