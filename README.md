@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Create your own Enumerable
+# My Enumerable
 
-> Description.
+> An app built with Ruby. It has a 'MyEnumerable' module that is included in 'MyList' class with filter, all and any feature methods.
 
 ## Built With
 
