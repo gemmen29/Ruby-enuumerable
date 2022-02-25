@@ -14,4 +14,12 @@ Module MyEnumerable
     end
     res
   end
+  
+  def filter (&block)
+    res = [];
+    each do |value|
+      res << value if block.call(value)      
+    end
+    res
+  end
 end
