@@ -1,4 +1,4 @@
-Module MyEnumerable
+module MyEnumerable
   def all? (&block)
     res = true;
     each do |value|
